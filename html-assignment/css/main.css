@@ -1,0 +1,36 @@
+body{
+    font-size: 18px;
+}
+header,footer{
+    background-color: cornflowerblue;
+}
+.site-title{
+    color: midnightblue;
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px green;
+}
+ul{
+    list-style: square;
+}
+li:nth-child(1){
+    background: gray;
+}
+a:link{
+    background-color: lightblue;
+}
+a:link{
+    text-decoration: none;
+}
+a:link{
+    border-style: double;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: orange;
+}
