@@ -1,0 +1,207 @@
+body {
+    background-color: #168af3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.40rem;
+    padding-right: 10px;
+    
+}
+
+/* title (absolute position) */
+h1 {
+    color: #EFFFFD;
+    font-size: 3.5rem; 
+    text-align: center;
+    position: absolute; 
+    width: 100%;
+    top: 55%;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper {
+    background-color: rgb(255, 255, 255, .5);
+    max-width: 75%;
+    margin: 0 auto;
+    
+}
+
+.container {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+
+/* menu */ 
+nav li {
+    float: left;
+    width: 33.3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* colour changes when the mouse hover  */
+nav li:hover {
+    background-color: #56BBF1;
+    font: #fff;
+}
+
+/* colour changes when  click */
+nav li:active {
+    background-color: #ffffff;
+}
+
+/*  border-box  */
+.border-menu:nth-child(2) {
+    box-sizing: border-box;
+    border-left: 1px solid #026bff;
+    border-right: 1px solid #026bff;
+}
+
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+section {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section img {
+    width: 300px;
+    float: left; 
+    margin-right: 20px;
+}
+
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: .95rem;   
+}
+
+/* box for form */
+.border {
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+label {
+    font-size: 1rem;
+    display: inline-block; 
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+input[type='text'] { 
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #026bff;
+    margin-bottom: 20px;
+    padding: .4rem;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    padding: .3rem;
+    border: 1px solid #026bff;
+    resize: none;
+}
+
+.radio-button {
+    margin-bottom: 20px;
+}
+
+button {
+    text-transform: uppercase;
+    padding: .7rem;
+    font-size: .7rem;
+    background-color: rgb(255, 255, 255, 0);
+    border: 1px solid #000;
+}
+
+/* change the colour when the arrow hover over the button */
+button:hover {
+    background-color: rgb(255, 255, 255, .5);
+}
+
+/* change the colour when the click  button */
+button:active {
+    background-color: #ffffff;
+}
+
+/* footer */
+
+footer {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: .75rem;
+    text-align: right;
+    padding-bottom: 25px;
+}
